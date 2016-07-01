@@ -6,6 +6,6 @@ define logzio_shipper::haproxy {
     content => template('logzio_shipper/haproxy.erb'),
     owner   => root,
     group   => root,
-    mode    => '0777',
+    mode    => '0655',
   }
 }
