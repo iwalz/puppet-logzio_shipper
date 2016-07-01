@@ -1,0 +1,35 @@
+{
+  "name": "logzio_shipper",
+  "version": "0.0.1",
+  "author": "Ingo Walz",
+  "summary": "Setup latest rsyslog to forward logs to logz.io",
+  "license": "Apache-2.0",
+  "source": "https://github.com/iwalz/puppet-logzio_shipper",
+  "project_page": "https://github.com/iwalz/puppet-logzio_shipper",
+  "issues_url": "https://github.com/iwalz/puppet-logzio_shipper/issues",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.6.0 < 5.0.0"}
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.7.0 < 2015.4.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    }
+  ],
+  "description": "Module to configure latest rsyslog to transfer logs to logz.io"
+}
