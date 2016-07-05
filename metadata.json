@@ -1,5 +1,5 @@
 {
-  "name": "logzio_shipper",
+  "name": "iwalz-logzio_shipper",
   "version": "0.0.1",
   "author": "Ingo Walz",
   "summary": "Setup latest rsyslog to forward logs to logz.io",
